@@ -5,6 +5,9 @@ def test_m1():
     assert a == b, "Test failed as a is not equal to b"
 
 
+test_m1()
+
+
 def test_m2():
     name = "selenium"
     assert name.upper() == "SELENIUM"
