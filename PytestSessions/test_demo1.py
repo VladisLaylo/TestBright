@@ -5,7 +5,7 @@ def test_m1():
     assert a == b, "Test failed as a is not equal to b"
 
 
-test_m1()  # test
+test_m1()  # test a and b
 
 
 def test_m2():
