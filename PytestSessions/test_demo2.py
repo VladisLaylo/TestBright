@@ -1,7 +1,7 @@
 import pytest
 
 
-def test_m4():
+def test_m4():  # test 4 must fail
     assert False
 
 
