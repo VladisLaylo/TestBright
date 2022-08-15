@@ -1,0 +1,19 @@
+Index: PytestSessions/test_demo1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>def test_m1():\n    a = 3\n    b = 4\n    assert a+1 == b, \"Test failed\"\n    assert a == b, \"Test failed as a is not equal to b\"\n\n\ntest_m1()  # test a and b\n\n\ndef test_m2():\n    name = \"selenium\"\n    assert name.upper() == \"SELENIUM\"\n\n\ndef test_m3():\n    assert True\n\n\ndef test_m4():\n    assert False\n\n\ndef test_m5():\n    assert 100 == 100\n\n\ndef test_m6():\n    assert \"vladis\" == \"VLADIS\"\n\n\ndef test_login():\n    assert \"admin\" == \"admin\"\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/PytestSessions/test_demo1.py b/PytestSessions/test_demo1.py
+--- a/PytestSessions/test_demo1.py	(revision c91891028728842d02d9689e47b6a8c530c82cd1)
++++ b/PytestSessions/test_demo1.py	(date 1660328555901)
+@@ -7,6 +7,8 @@
+ 
+ test_m1()  # test a and b
+ 
++"""this changed on branch2"""
++
+ 
+ def test_m2():
+     name = "selenium"
