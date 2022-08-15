@@ -6,7 +6,13 @@ def test_m1():
 
 
 test_m1()  # test a and b not c not d
+<<<<<<< HEAD
 # change made on master
+=======
+
+"""this changed on branch2"""
+
+>>>>>>> new-local-branch
 
 def test_m2():
     name = "selenium"
