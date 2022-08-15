@@ -8,6 +8,7 @@ def test_m1():
 test_m1()  # test a and b not c not d
 # change made on master
 """this changed on branch2"""
+"""changed on master"""
 
 def test_m2():
     name = "selenium"
